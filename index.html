@@ -6,8 +6,53 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="pixydrops" />
-    <meta name="description" content="Remons - Booking Rental HTML Template" />
+
+    <!-- Thẻ tiêu đề -->
+    <title>Dịch vụ cho thuê xe giá du lịch - grap giá rẻ Tâm Nguyễn</title>
+
+    <!-- Mô tả nội dung trang -->
+    <meta
+      name="description"
+      content="Dịch vụ xe du lịch và Grab Đà Nẵng giá rẻ, tiện lợi, phục vụ 24/7. Đặt xe nhanh chóng, tài xế chuyên nghiệp, đưa đón tận nơi với chi phí hợp lý."
+    />
+
+    <!-- Tác giả -->
+    <meta name="author" content="Dịch vụ cho thuê xe giá du lịch - grap giá rẻ Tâm Nguyễn" />
+
+    <!-- Từ khóa liên quan -->
+    <meta
+      name="keywords"
+      content="xe du lịch Đà Nẵng, Grab Đà Nẵng, thuê xe Đà Nẵng, xe đưa đón sân bay, xe du lịch giá rẻ, dịch vụ xe Đà Nẵng"
+    />
+
+    <!-- Robots meta tag (chỉ dẫn cho bot tìm kiếm) -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- Canonical URL (tránh trùng lặp nội dung) -->
+    <link rel="canonical" href="https://www.example.com/xe-du-lich-grab-da-nang" />
+
+    <!-- Open Graph (SEO cho Facebook) -->
+    <meta property="og:title" content="Xe du lịch & Grab Đà Nẵng giá rẻ - Đặt xe nhanh chóng" />
+    <meta
+      property="og:description"
+      content="Dịch vụ xe du lịch và Grab Đà Nẵng giá rẻ, tiện lợi. Đặt xe nhanh chóng, tài xế chuyên nghiệp, đưa đón tận nơi."
+    />
+    <meta property="og:image" content="https://www.example.com/images/xe-du-lich-da-nang.jpg" />
+    <meta property="og:url" content="https://www.example.com/xe-du-lich-grab-da-nang" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card (SEO cho Twitter) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Xe du lịch & Grab Đà Nẵng giá rẻ - Đặt xe nhanh chóng" />
+    <meta
+      name="twitter:description"
+      content="Dịch vụ xe du lịch và Grab Đà Nẵng giá rẻ, tiện lợi. Đặt xe nhanh chóng, tài xế chuyên nghiệp, đưa đón tận nơi."
+    />
+    <meta name="twitter:image" content="https://www.example.com/images/xe-du-lich-da-nang.jpg" />
+
+    <!-- Thẻ xác minh Google Search Console -->
+    <meta name="google-site-verification" content="mã-xác-minh" />
+
     <!-- ======== Page title ============ -->
     <title>Remons - Booking Rental HTML Template</title>
     <!--<< Favcion >>-->
@@ -30,8 +75,49 @@
     <link rel="stylesheet" href="assets/css/nice-select.css" />
     <!--<< Main.css >>-->
     <link rel="stylesheet" href="assets/css/main.css" />
+
+    <style>
+      .floating-icons {
+        position: fixed;
+        bottom: 160px;
+        right: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        z-index: 1000;
+      }
+      .floating-icons a {
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s;
+      }
+      .floating-icons a:hover {
+        transform: scale(1.1);
+      }
+      .floating-icons img {
+        width: 30px;
+        height: 30px;
+      }
+    </style>
   </head>
   <body>
+    <div class="floating-icons">
+      <a href="https://zalo.me/your_zalo_id" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Icon_of_Zalo.svg/1024px-Icon_of_Zalo.svg.png" alt="Zalo" />
+      </a>
+      <a href="https://www.facebook.com/messages/e2ee/t/8926887364010736" target="_blank">
+        <img src="./assets/images/messenger.png" alt="Messenger" />
+      </a>
+      <a href="tel:+84901234567">
+        <img src="./assets/images/phone-call.png" alt="Phone" />
+      </a>
+    </div>
     <!-- Preloader Start -->
     <div id="preloader" class="preloader">
       <div class="animation-preloader">
@@ -356,32 +442,116 @@
           </thead>
           <tbody>
             <tr>
-              <th scope="row">Sân bay ĐN - Khách sạn</th>
-              <td>1 lượt</td>
-              <td>190.000 <sup>đ</sup></td>
-              <td>250.000 <sup>đ</sup></td>
-              <td>350.000 <sup>đ</sup></td>
+              <th scope="row">Đón tiễn sân bay</th>
+              <td>1 chiều</td>
+              <td>119.000 <sup>đ</sup></td>
+              <td>149.000 <sup>đ</sup></td>
+              <td>299.000 <sup>đ</sup></td>
             </tr>
             <tr>
-              <th scope="row">Sân bay ĐN - Khách sạn</th>
-              <td>1 lượt</td>
-              <td>190.000 <sup>đ</sup></td>
-              <td>250.000 <sup>đ</sup></td>
-              <td>350.000 <sup>đ</sup></td>
+              <th scope="row">Đà Nẵng – Bà Nà</th>
+              <td>1 chiều</td>
+              <td>299.000 <sup>đ</sup></td>
+              <td>349.000 <sup>đ</sup></td>
+              <td>549.000 <sup>đ</sup></td>
             </tr>
             <tr>
-              <th scope="row">Sân bay ĐN - Khách sạn</th>
-              <td>1 lượt</td>
-              <td>190.000 <sup>đ</sup></td>
-              <td>250.000 <sup>đ</sup></td>
-              <td>350.000 <sup>đ</sup></td>
+              <th scope="row">Đà Nẵng – Bà Nà</th>
+              <td>2 chiều</td>
+              <td>549.000 <sup>đ</sup></td>
+              <td>649.000 <sup>đ</sup></td>
+              <td>999.000 <sup>đ</sup></td>
             </tr>
             <tr>
-              <th scope="row">Sân bay ĐN - Khách sạn</th>
-              <td>1 lượt</td>
-              <td>190.000 <sup>đ</sup></td>
-              <td>250.000 <sup>đ</sup></td>
-              <td>350.000 <sup>đ</sup></td>
+              <th scope="row">Đà Nẵng – Hội An</th>
+              <td>1 chiều</td>
+              <td>299.000 <sup>đ</sup></td>
+              <td>349.000 <sup>đ</sup></td>
+              <td>549.000 <sup>đ</sup></td>
+            </tr>
+            <tr>
+              <th scope="row">Đà Nẵng – Hội An</th>
+              <td>2 chiều</td>
+              <td>549.000 <sup>đ</sup></td>
+              <td>649.000 <sup>đ</sup></td>
+              <td>899.000 <sup>đ</sup></td>
+            </tr>
+            <tr>
+              <th scope="row">Đà Nẵng – Núi Thần Tài</th>
+              <td>2 chiều</td>
+              <td>699.000 <sup>đ</sup></td>
+              <td>799.000 <sup>đ</sup></td>
+              <td>1.199.000 <sup>đ</sup></td>
+            </tr>
+            <tr>
+              <th scope="row">Đà Nẵng – Chùa Linh Ứng</th>
+              <td>2 chiều</td>
+              <td>299.000 <sup>đ</sup></td>
+              <td>349.000 <sup>đ</sup></td>
+              <td>599.000 <sup>đ</sup></td>
+            </tr>
+            <tr>
+              <th scope="row">Đà Nẵng – Ngũ Hành Sơn</th>
+              <td>2 chiều</td>
+              <td>299.000 <sup>đ</sup></td>
+              <td>349.000 <sup>đ</sup></td>
+              <td>599.000 <sup>đ</sup></td>
+            </tr>
+            <tr>
+              <th scope="row">Đà Nẵng – Cù Lao Chàm</th>
+              <td>2 chiều</td>
+              <td>549.000 <sup>đ</sup></td>
+              <td>649.000 <sup>đ</sup></td>
+              <td>999.000 <sup>đ</sup></td>
+            </tr>
+            <tr>
+              <th scope="row">Đà Nẵng – Vinpearl Nam Hội An</th>
+              <td>2 chiều</td>
+              <td>799.000 <sup>đ</sup></td>
+              <td>899.000 <sup>đ</sup></td>
+              <td>1.199.000 <sup>đ</sup></td>
+            </tr>
+            <tr>
+              <th scope="row">Đà Nẵng – Mỹ Sơn</th>
+              <td>2 chiều</td>
+              <td>799.000 <sup>đ</sup></td>
+              <td>899.000 <sup>đ</sup></td>
+              <td>1.199.000 <sup>đ</sup></td>
+            </tr>
+            <tr>
+              <th scope="row">Đà Nẵng – Mỹ Sơn – Hội An</th>
+              <td>2 chiều</td>
+              <td>1.399.000 <sup>đ</sup></td>
+              <td>1.499.000 <sup>đ</sup></td>
+              <td>1.799.000 <sup>đ</sup></td>
+            </tr>
+            <tr>
+              <th scope="row">Đà Nẵng – Lăng Cô</th>
+              <td>1 chiều</td>
+              <td>449.000 <sup>đ</sup></td>
+              <td>499.000 <sup>đ</sup></td>
+              <td>749.000 <sup>đ</sup></td>
+            </tr>
+            <tr>
+              <th scope="row">Đà Nẵng – Huế</th>
+              <td>1 chiều</td>
+              <td>999.000 <sup>đ</sup></td>
+              <td>1.099.000 <sup>đ</sup></td>
+              <td>1.499.000 <sup>đ</sup></td>
+            </tr>
+            <tr>
+              <th scope="row">Đà Nẵng – Huế</th>
+              <td>2 chiều</td>
+              <td>1.599.000 <sup>đ</sup></td>
+              <td>1.899.000 <sup>đ</sup></td>
+              <td>2.699.000 <sup>đ</sup></td>
+            </tr>
+            <tr>
+              <th scope="row">City Tour</th>
+              <td>1 ngày</td>
+              <td>1.199.000 <sup>đ</sup></td>
+              <td>1.199.000 <sup>đ</sup></td>
+              <td>1.499.000 <sup>đ</sup></td>
             </tr>
           </tbody>
         </table>
